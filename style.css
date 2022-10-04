@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(38, 2, 68);
+    text-align: center;
+    position: relative;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    margin:  5%;
+    color: #FEF2BF;
+}
+.wrong{
+    background-color: rgb(248, 241, 241, .8);
+    color: red;
+}
+
+.box{
+    width: 25rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+}
+.x-box{
+    display: inline-block;
+    width: 8rem;
+    height: 8rem;
+    border: 3px solid black;
+    border-radius: 10%;
+    margin: 10px;
+    overflow: hidden;
+
+}
+
+.green{
+    color: green;
+    background-color: green;
+    display: visible;
+
+}
+.yellow{
+    color: yellow;
+    background-color: yellow;
+    display: visible;
+
+}
+.red{
+
+    color: red;
+    background-color: red;
+    display: visible;
+
+}
+.blue{
+
+    color: blue;
+    background-color: blue;
+    display: visible;
+
+}
+.pressed{
+    width: 8.5rem;
+    height: 8.5rem;
+    background-color: white;
+    opacity: .1;
+}
